@@ -1,5 +1,6 @@
 import React from 'react';
 import {FaRegFileAlt} from 'react-icons/fa';
+import {LuDownload} from 'react-icons/lu';
 
 function Card() {
   return (
@@ -8,8 +9,11 @@ function Card() {
         <p className='text-xs mt-5 font-semibold leading-tight'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, optio?
         </p>
 
-        <div className='footer absolute bottom-0 bg-sky-200 w-full py-3 left-0'>
-
+        <div className='footer absolute bottom-0 w-full py-3 px-8 left-0'>
+          <div className='flex items-center justify-between'>
+            <h5>0.4mb</h5>
+            <LuDownload/>
+          </div>
         </div>
 
 
