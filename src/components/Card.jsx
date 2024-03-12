@@ -10,9 +10,11 @@ function Card() {
         </p>
 
         <div className='footer absolute bottom-0 w-full py-3 px-8 left-0'>
-          <div className='flex items-center justify-between'>
+          <div className='flex items-center justify-between mb-5'>
             <h5>0.4mb</h5>
-            <LuDownload/>
+            <span className='w-7 h-7 bg-zinc-200 rounded-full flex items-center justify-center'>
+              <LuDownload size=".8em" color='#000' />
+            </span>
           </div>
         </div>
 
